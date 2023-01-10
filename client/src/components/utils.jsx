@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "http://localhost/todoreact/server/";
+const url = "https://afflated-meridians.000webhostapp.com/server/";
 
 export const allTodos = async () => {
     const response = await axios.get(url + "getTodos.php");
